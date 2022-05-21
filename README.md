@@ -1,10 +1,10 @@
-# Zenith  
+# YTBB  
 Online Video sharing and a platform to invest on content creators
 ----
 
 ## Problem  
-Pays only 25% of ad revenue to content creators
-Majority of the revenue is shared among 0.25 % of the channels. -- UK Based YouTube Expert Alan Spicer
+YouTube pays only 25% of ad revenue to content creators
+"Majority of the revenue is shared among 0.25 % of the channels." - UK Based YouTube Expert Alan Spicer
 It therefore is a very saturated market, with only a very small percentage of people having any monetary reason to stay in it. 
 ----
 
