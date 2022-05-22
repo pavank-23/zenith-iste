@@ -1,0 +1,51 @@
+.web{
+    display:flex;
+    flex:1;
+    align-items: center;
+}
+
+.web-option{
+    font-size: 15px;
+    margin-right: 16px;
+    font-weight: 70;
+}
+
+.web-option a{
+    text-decoration: none;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+.web-option a:hover{
+    color: #682ae9
+}
+    
+.option-icon{
+    display: flex;
+    align-items: center;
+    margin-right: 4px;
+}
+
+.web-option :last-child{
+    margin-right: 0px;
+}
+
+@keyframes fadeOut {
+    from{
+        opacity: 1;
+    }
+    to{
+        opacity: 0;
+    }
+}
+
+
+@keyframes fadeIn {
+    from{
+        opacity: 0;
+    }
+    to{
+        opacity: 1;
+    }
+}

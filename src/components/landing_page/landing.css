@@ -1,0 +1,31 @@
+body{
+    padding: 12px;
+}
+
+.Title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 200%;
+}
+
+.YT{
+    color:#682ae9;
+}
+
+.videoThumbnail{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.videoTitle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+html{
+    scroll-behavior: smooth;
+    background-color: #0e1212;
+    color: white;
+}
