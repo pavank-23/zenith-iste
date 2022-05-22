@@ -1,6 +1,6 @@
 .videoplayer{
     display: flex;
-    flex: 1;
+    flex: 2;
     justify-content: center;
 }
 
@@ -17,4 +17,21 @@
     padding: 10px 25px;
     font-size: 90%;
     color: #7f7f7f;
+}
+
+
+
+.value{
+    padding:20px 20px;
+}
+
+
+.investButtons button{
+    padding: 10px 10px;
+    border: none;
+    border-bottom: 1px solid #fff;
+    margin:1%;
+    color:#fff;
+    background-color:#682ae9;
+    border-radius: 12px;
 }

@@ -1,4 +1,5 @@
 import React,{ useState } from 'react'
+import { Link } from 'react-router-dom';
 import "./web.css"
 
 function WebMenu() {
@@ -6,14 +7,13 @@ function WebMenu() {
   return (
     <div className='web'>
         <div className='web-option' onMouseEnter={()=> setHover("#682ae9")}>
-            <a href='#invest'>
-            <i class="fi fi-rr-laptop option-icon"></i> Invest
-            </a>
+            <Link to ="/about"> About
+            </Link>
         </div>
-        <div className='web-option'>
-            <a href='#sign-in'>
-            <i class="fi fi-rr-envelope option-icon"></i>Sign In
-            </a>
+        <div className='web-option' onMouseEnter={()=> setHover("#682ae9")}>
+            <Link to ="/signin"> User 
+            <span>  ($0.00)</span>
+            </Link>
         </div>
     </div>
   )

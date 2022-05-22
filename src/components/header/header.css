@@ -8,7 +8,11 @@
 }
 
 .title{
-    font-size:100%;
+    font-size:120%;
+}
+
+.title p{
+    color:white;
 }
 
 .menu{

@@ -1,4 +1,5 @@
 import React, { useState } from 'react'
+import { Link } from 'react-router-dom';
 import "./header.css"
 import MobileMenu from './mobile'
 import WebMenu from './web'
@@ -8,7 +9,9 @@ function Header() {
     return (
     <div className='header'>
         <div className = "title">
+            <Link to="/" style={{textDecoration:"none"}}>
             <p><span className="YT">YT</span>BB</p>
+            </Link>
         </div>
         <div className='menu'>
             <div className='web-menu'>
@@ -16,7 +19,7 @@ function Header() {
             </div>
             <div className='mobile-menu'>
                 <div onClick={()=>setIsOpen(!isOpen)}>
-                    <i class="fi fi-rr-align-justify menu-icon"></i>
+                    <img src={require("../../assets/apps.png")}></img>
                 </div>
                 {isOpen && <MobileMenu isOpen={isOpen} setIsOpen={setIsOpen} />}
             </div>

@@ -1,17 +1,28 @@
-.thumbnails{
+.videoContainer{
     display: flex;
     flex: 1;
-    padding: 8px 16px;
-    width: 20%;
-    height: 20%;
-    position: relative;
-}
-.video-content{
-    display: flex;
-    flex: 1;
-    padding: 5px 20px;
+    align-items: center;
+    justify-content: center;
 }
 
-.video{
-    justify-content: space-between;
+.video-content{
+    font-size: 20px;
+    padding-left: 20px;
+    overflow: hidden;
+}
+
+.thumbnails{
+    flex-basis: 40%;
+    width: 25%;
+    height: 40%;
+    float: left;
+}
+
+.video-desc{
+  color : #7f7f7f;
+}
+
+.creator{
+    margin-left: 50%;
+    font-size: 120%;
 }
